@@ -30,7 +30,6 @@ namespace PersonApi.Services {
         // GetAll
         public List<Person> GetAll() {
             lock (_lock) {
-                // Return a defensive copy so callers cannot mutate internal state
                 return _cache.Select(p => Clone(p)).ToList();
             }
         }

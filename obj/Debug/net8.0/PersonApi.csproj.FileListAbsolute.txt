@@ -35,3 +35,41 @@ C:\Users\Toryn\Downloads\PersonAPI\obj\Debug\net8.0\refint\PersonApi.dll
 C:\Users\Toryn\Downloads\PersonAPI\obj\Debug\net8.0\PersonApi.pdb
 C:\Users\Toryn\Downloads\PersonAPI\obj\Debug\net8.0\PersonApi.genruntimeconfig.cache
 C:\Users\Toryn\Downloads\PersonAPI\obj\Debug\net8.0\ref\PersonApi.dll
+C:\My Stuff\repos\PersonApi\bin\Debug\net8.0\PersonApi.staticwebassets.endpoints.json
+C:\My Stuff\repos\PersonApi\bin\Debug\net8.0\PersonApi.exe
+C:\My Stuff\repos\PersonApi\bin\Debug\net8.0\PersonApi.deps.json
+C:\My Stuff\repos\PersonApi\bin\Debug\net8.0\PersonApi.runtimeconfig.json
+C:\My Stuff\repos\PersonApi\bin\Debug\net8.0\PersonApi.dll
+C:\My Stuff\repos\PersonApi\bin\Debug\net8.0\PersonApi.pdb
+C:\My Stuff\repos\PersonApi\bin\Debug\net8.0\Microsoft.AspNetCore.JsonPatch.dll
+C:\My Stuff\repos\PersonApi\bin\Debug\net8.0\Microsoft.AspNetCore.Mvc.NewtonsoftJson.dll
+C:\My Stuff\repos\PersonApi\bin\Debug\net8.0\Microsoft.OpenApi.dll
+C:\My Stuff\repos\PersonApi\bin\Debug\net8.0\Newtonsoft.Json.dll
+C:\My Stuff\repos\PersonApi\bin\Debug\net8.0\Newtonsoft.Json.Bson.dll
+C:\My Stuff\repos\PersonApi\bin\Debug\net8.0\Swashbuckle.AspNetCore.Swagger.dll
+C:\My Stuff\repos\PersonApi\bin\Debug\net8.0\Swashbuckle.AspNetCore.SwaggerGen.dll
+C:\My Stuff\repos\PersonApi\bin\Debug\net8.0\Swashbuckle.AspNetCore.SwaggerUI.dll
+C:\My Stuff\repos\PersonApi\obj\Debug\net8.0\PersonApi.csproj.AssemblyReference.cache
+C:\My Stuff\repos\PersonApi\obj\Debug\net8.0\PersonApi.GeneratedMSBuildEditorConfig.editorconfig
+C:\My Stuff\repos\PersonApi\obj\Debug\net8.0\PersonApi.AssemblyInfoInputs.cache
+C:\My Stuff\repos\PersonApi\obj\Debug\net8.0\PersonApi.AssemblyInfo.cs
+C:\My Stuff\repos\PersonApi\obj\Debug\net8.0\PersonApi.csproj.CoreCompileInputs.cache
+C:\My Stuff\repos\PersonApi\obj\Debug\net8.0\PersonApi.MvcApplicationPartsAssemblyInfo.cs
+C:\My Stuff\repos\PersonApi\obj\Debug\net8.0\PersonApi.MvcApplicationPartsAssemblyInfo.cache
+C:\My Stuff\repos\PersonApi\obj\Debug\net8.0\PersonApi.sourcelink.json
+C:\My Stuff\repos\PersonApi\obj\Debug\net8.0\scopedcss\bundle\PersonApi.styles.css
+C:\My Stuff\repos\PersonApi\obj\Debug\net8.0\staticwebassets.build.json
+C:\My Stuff\repos\PersonApi\obj\Debug\net8.0\staticwebassets.development.json
+C:\My Stuff\repos\PersonApi\obj\Debug\net8.0\staticwebassets.build.endpoints.json
+C:\My Stuff\repos\PersonApi\obj\Debug\net8.0\staticwebassets\msbuild.PersonApi.Microsoft.AspNetCore.StaticWebAssets.props
+C:\My Stuff\repos\PersonApi\obj\Debug\net8.0\staticwebassets\msbuild.PersonApi.Microsoft.AspNetCore.StaticWebAssetEndpoints.props
+C:\My Stuff\repos\PersonApi\obj\Debug\net8.0\staticwebassets\msbuild.build.PersonApi.props
+C:\My Stuff\repos\PersonApi\obj\Debug\net8.0\staticwebassets\msbuild.buildMultiTargeting.PersonApi.props
+C:\My Stuff\repos\PersonApi\obj\Debug\net8.0\staticwebassets\msbuild.buildTransitive.PersonApi.props
+C:\My Stuff\repos\PersonApi\obj\Debug\net8.0\staticwebassets.pack.json
+C:\My Stuff\repos\PersonApi\obj\Debug\net8.0\PersonApi.csproj.Up2Date
+C:\My Stuff\repos\PersonApi\obj\Debug\net8.0\PersonApi.dll
+C:\My Stuff\repos\PersonApi\obj\Debug\net8.0\refint\PersonApi.dll
+C:\My Stuff\repos\PersonApi\obj\Debug\net8.0\PersonApi.pdb
+C:\My Stuff\repos\PersonApi\obj\Debug\net8.0\PersonApi.genruntimeconfig.cache
+C:\My Stuff\repos\PersonApi\obj\Debug\net8.0\ref\PersonApi.dll

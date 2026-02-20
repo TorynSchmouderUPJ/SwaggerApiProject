@@ -26,7 +26,7 @@ dotnet restore
 dotnet run
 ```
 
-Navigate to `https://localhost:7100/swagger` to explore the API via Swagger UI.
+Navigate to `https://localhost:5000/swagger` to explore the API via Swagger UI.
 
 ## API Endpoints
 
