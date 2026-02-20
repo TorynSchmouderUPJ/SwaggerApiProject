@@ -1,0 +1,12 @@
+{
+  "Version": 1,
+  "Hash": "EbtJL3PO0SAgXKyVJN3WIodZFv+/B0qpJ1aahnBFM7I=",
+  "Source": "PersonApi",
+  "BasePath": "_content/PersonApi",
+  "Mode": "Default",
+  "ManifestType": "Build",
+  "ReferencedProjectsConfiguration": [],
+  "DiscoveryPatterns": [],
+  "Assets": [],
+  "Endpoints": []
+}
