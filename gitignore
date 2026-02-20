@@ -1,0 +1,35 @@
+## .NET
+bin/
+obj/
+publish/
+*.user
+*.userosscache
+*.suo
+*.cache
+*.dll
+*.exe
+*.pdb
+
+## NuGet
+*.nupkg
+**/packages/
+project.nuget.cache
+
+## Rider
+.idea/
+*.sln.iml
+*.sln.DotSettings.user
+
+## Visual Studio (in case anyone opens it in VS)
+.vs/
+launchSettings.json
+
+## Docker
+**/docker-compose.override.yml
+
+## Data
+Data/persons.json
+
+## OS files
+Thumbs.db
+.DS_Store
