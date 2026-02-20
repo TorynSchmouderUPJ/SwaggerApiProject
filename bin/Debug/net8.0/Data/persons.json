@@ -1,0 +1,17 @@
+[
+  {
+    "id": "1",
+    "name": "Toryn",
+    "school": "UPJ"
+  },
+  {
+    "id": "2",
+    "name": "Jane Smith",
+    "school": "MIT"
+  },
+  {
+    "id": "3",
+    "name": "Bob Johnson",
+    "school": "Stanford"
+  }
+]
