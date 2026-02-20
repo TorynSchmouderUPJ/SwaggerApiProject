@@ -16,17 +16,48 @@ PersonApi/
 │   └── launchSettings.json
 ├── Program.cs                 # App startup & Newtonsoft config
 ├── appsettings.json
+├── Dockerfile
+├── .dockerignore
 └── PersonApi.csproj
 ```
 
-## Quick Start
+## Prerequisites
+
+- [.NET 8 SDK](https://dotnet.microsoft.com/download/dotnet/8.0)
+- [JetBrains Rider](https://www.jetbrains.com/rider/)
+- [Docker Desktop](https://www.docker.com/products/docker-desktop/) (for containerized deployment)
+
+## Getting Started with Rider
+
+1. Open Rider → **File → Open** → select the `PersonApi` folder or `PersonApi.csproj`
+2. Rider will auto-detect the project and restore NuGet packages
+3. Go to **Run → Edit Configurations** and set:
+   - **Environment variables:** `ASPNETCORE_ENVIRONMENT=Development`
+   - **Launch URL:** `http://localhost:5000/swagger`
+4. Hit **Shift+F10** to run
+5. Navigate to `http://localhost:5000/swagger` to explore the API
+
+## Running with Docker
+
+Build the image:
 
 ```bash
-dotnet restore
-dotnet run
+docker build -t person-api .
 ```
 
-Navigate to `https://localhost:5000/swagger` to explore the API via Swagger UI.
+Run the container:
+
+```bash
+docker run -d -p 5000:8080 --name person-api person-api
+```
+
+Navigate to `http://localhost:5000/swagger` to access the Swagger UI.
+
+To persist data across container rebuilds, mount a volume:
+
+```bash
+docker run -d -p 5000:8080 -v persondata:/app/Data --name person-api person-api
+```
 
 ## API Endpoints
 
@@ -38,18 +69,6 @@ Navigate to `https://localhost:5000/swagger` to explore the API via Swagger UI.
 | PUT    | /api/person/{id}   | Update a person      |
 | DELETE | /api/person/{id}   | Delete a person      |
 
-## Sample Request Body (POST / PUT)
-
-```json
-{
-  "id": "1",
-  "name": "Alice Johnson",
-  "school": "MIT"
-}
-```
-
-> If `id` is omitted on POST, a GUID will be auto-generated.
-
 ## Data Storage
 
-Data is persisted to `Data/persons.json` (relative to the build output directory). The `FileManager` singleton ensures all reads and writes are thread-safe via a lock, and the file is kept in sync with an in-memory cache for fast access.
+Data is persisted to `Data/persons.json` relative to the build output directory (or `/app/Data/persons.json` inside Docker). The `FileManager` singleton ensures all reads and writes are thread-safe via a lock, and the file is kept in sync with an in-memory cache for fast access.
